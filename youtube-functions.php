@@ -1,5 +1,10 @@
 <?php
 /**
+ * Youtube videos related functions.
+ */
+
+
+/**
  * Extract youtube video id from link
  */
 function youtubeVideoIdFromLink(string $link): string
@@ -18,4 +23,12 @@ function youtubeVideoIdFromLink(string $link): string
     }
 
     return '';
+}
+
+/**
+ * Convert a youtube video link to "no cookie" version
+ */
+function youtubeNoCookie(string $link): string
+{
+    return 'https://www.youtube-nocookie.com/watch?v='.youtubeVideoIdFromLink($link);
 }
