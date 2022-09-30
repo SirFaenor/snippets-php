@@ -4,12 +4,12 @@
  */
 function youtubeVideoIdFromLink(string $link): string
 {
-    if (strstr($link, "youtu.be")) {
+    if (strpos($link, "youtu.be") !== false) {
         $url = explode("/", $link);
         return  array_pop($url);
     }
 
-    if (strstr($link, "youtube.com")) {
+    if (strpos($link, "youtube.com") !== false) {
         $params = parse_url($link, PHP_URL_QUERY);
 
         parse_str($params, $result);
