@@ -1,0 +1,24 @@
+a.favorites{
+    padding-bottom: 9px;
+    vertical-align: middle;
+    display: inline-block;
+    span.ico{
+        background: url(/img/icons/favorite-add.svg) center center no-repeat;
+        background-size: 15px 15px;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &.aggiunto{
+        span.ico{
+            background: url(/img/icons/favorite-remove.svg) center center no-repeat;
+            background-size: 19px;
+        }
+    }
+    &:hover{
+        span.ico{
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "group_code": "preferiti",
+        "code": "aggiungi",
+        "text_it": "Aggiungi ai preferiti",
+        "text_en": "Add to favorites",
+        "text_de": "Zu Favoriten hinzufügen",
+        "text_fr": "Ajouter aux favoris",
+        "text_es": "Añadir",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "group_code": "preferiti",
+        "code": "intro",
+        "text_it": "Create qui la vostra lista dei prodotti preferiti per tenerli in osservazione e visualizzarli velocemente in ogni momento.",
+        "text_en": "Create your list of favourite products to view them quickly at any time.",
+        "text_de": "Erstellen Sie eine Liste mit Ihren Lieblingsprodukten, um sie jederzeit schnell aufrufen zu können.",
+        "text_fr": "Créez la liste de vos produits préférés pour les visualiser rapidement à tout instant.",
+        "text_es": "Crea tu lista de productos favoritos para verlos rápidamente en cualquier momento.",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "group_code": "preferiti",
+        "code": "meta_description",
+        "text_it": null,
+        "text_en": null,
+        "text_de": null,
+        "text_fr": null,
+        "text_es": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "group_code": "preferiti",
+        "code": "meta_title",
+        "text_it": "I tuoi favoriti",
+        "text_en": "Your favourites",
+        "text_de": "Ihre Lieblingsprodukte",
+        "text_fr": "Vos préférés",
+        "text_es": "Tus favoritos",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "group_code": "preferiti",
+        "code": "rimuovi",
+        "text_it": "Rimuovi dai preferiti",
+        "text_en": "Remove from favorites",
+        "text_de": "Von Favoriten entfernen",
+        "text_fr": "Retirer des favoris",
+        "text_es": "Quitar de favoritos",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "group_code": "preferiti",
+        "code": "titolo",
+        "text_it": "i tuoi <br><span>preferiti</span>",
+        "text_en": null,
+        "text_de": null,
+        "text_fr": null,
+        "text_es": null,
+        "created_at": null,
+        "updated_at": null
+    }
+]
